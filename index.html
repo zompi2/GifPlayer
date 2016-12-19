@@ -1,0 +1,51 @@
+<!--
+ * GifPlayer Example.
+ *
+ * This is the main file of the gif player that shows how it works.
+ *
+ * This file is a part of a project from http://zompi.pl/gif-player-in-javascript
+ * (c) 2015 Damian Nowakowski
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="pl-PL" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+	<!-- The header will bind all other required files to this file. -->
+	<head profile="http://gmpg.org/xfn/11">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<title>GifPlayer</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script type="application/javascript" src="player.js"></script>
+		
+		<!-- This script will hook all gifcont blocks to the gifPlayer function -->
+		<script type="text/javascript">
+			$(document).ready( function(){
+				$('.gifcont').each(function() {
+					var self = $(this);
+					this.gp = new gifPlayer(self);
+				});
+			});
+		</script>
+	</head>
+
+	<!-- The body will contain one gif player for testing purposes -->
+	<body>
+		<div class="gifcenter">
+			<div class="gifcont">
+				<img class="animated">
+				<img class="still" src="image.png">
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+				<div class="play">
+					<div class="play_button"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+</html>
