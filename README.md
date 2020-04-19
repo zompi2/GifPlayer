@@ -1,9 +1,10 @@
-# Gif Player in Javascript
-
-Here's a project that presents how to implement a simple gif loader/player using javascript and html.
-
+Gif Player in Javascript
+=====
+This is a project that presents how to implement a simple gif loader/player using javascript and html.  
 You can check it in action here: http://jsfiddle.net/eRLC9/4/
 
-Project inspired by this gem: https://github.com/apankrat/gif-player
+## Inspiraction
+https://github.com/apankrat/gif-player
 
-Link to the tutorial: http://zompi.pl/gif-player-in-javascript/
+## More
+You can read more about how it works in this blog entry: https://damnow.blogspot.com/2015/01/gif-player-in-javascript.html
