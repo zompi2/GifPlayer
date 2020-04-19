@@ -4,7 +4,6 @@
  * Here is a definition of the jquery gif player methods that
  * provides interaction and loading mechanisms.
  *
- * This file is a part of a project from http://zompi.pl/[title]
  * (c) 2015 Damian Nowakowski
  */
 
