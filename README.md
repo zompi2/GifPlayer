@@ -7,4 +7,4 @@ You can check it in action here: http://jsfiddle.net/bhecsov8/2
 https://github.com/apankrat/gif-player
 
 ## More
-You can read more about how it works in this blog entry: https://damnow.blogspot.com/2015/01/gif-player-in-javascript.html
+You can read more about how it works in this blog entry: https://zompidev.blogspot.com/2015/01/gif-player-in-javascript.html
